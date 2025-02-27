@@ -32,6 +32,11 @@ body{
     align-items: center;
     min-height: 100vh;
     background: radial-gradient(var(--fairy-tale), var(--alabaster));
+    flex-direction: column;
+    padding: 10px; 
+    width: 100%;
+    height: 100%;
+    margin: 0; 
 }
 
 .card{
@@ -106,13 +111,10 @@ body{
 
 .spot{
     position: relative;
-    top: 350px;
-    left: -328px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0;
 }
-
-/* h2::first-letter{
-    color: var(--cinereous-2);
-} */
 
 h2{
     font-family: heart;
@@ -130,7 +132,6 @@ a{
     font-family: porkys;
     text-shadow: 2px 2px 15px #d6ddd2ff;
 }
-
 
 @media(max-width:1024px) and (min-width:720px){
     body{
